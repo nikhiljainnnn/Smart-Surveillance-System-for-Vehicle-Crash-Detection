@@ -15,8 +15,8 @@ model = YOLO(MODEL_PATH)
 alert_sent = False
 
 # --- Telegram Bot Config ---
-BOT_TOKEN = "8065451274:AAHS0kIOwlMktIwhMOvzahvJnwJnpdNXCDk"
-CHAT_ID = "6639691817"
+BOT_TOKEN = ----
+CHAT_ID = ----
 
 # --- Telegram Alert Function ---
 def send_telegram_alert(confidence, frame):
@@ -101,3 +101,4 @@ def video():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
